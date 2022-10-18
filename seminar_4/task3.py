@@ -7,7 +7,7 @@
 
 
 def find(a, b):
-    
+
     if a > b:
         max_num = a
         min_num = b
@@ -19,7 +19,8 @@ def find(a, b):
         if min_num % i == 0 and max_num % i == 0:
             return i
 
-a=int(input("Введите число а: "))
-b=int(input("Введите число b: "))
-nok=find(a,b)
+
+a = int(input("Введите число а: "))
+b = int(input("Введите число b: "))
+nok = find(a, b)
 print(nok)
