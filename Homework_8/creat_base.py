@@ -14,6 +14,6 @@ def read_file(file_name):
     return data
 
 
-def write_file(data, file_reserve='data_base.json'):
+def write_file(data, file_reserve='Homework_8\data_base.json'):
     with open(file_reserve, 'w', encoding='utf8') as write_file:
         json.dump(data, write_file, ensure_ascii = False, indent = 4)

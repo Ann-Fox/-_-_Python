@@ -10,7 +10,7 @@ def clear(): return os.system('cls')
 def data_comm():
     exit = True
     data_flag = False
-    data = cb.read_file("data_base.json")
+    data = cb.read_file("Homework_8\data_base.json")
     if data == []:
         data_flag = True
     while exit:
@@ -39,7 +39,7 @@ def data_comm():
             cb.write_file(data)
             clear()
         else:
-            cb.write_file(data, "data_base_2.json")
+            cb.write_file(data, "Homework_8\data_base_2.json")
             exit = False
 
 
