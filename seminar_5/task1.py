@@ -12,7 +12,7 @@
 # вариант 2
 number = []
 
-path = 'file.txt'
+path = 'seminar_5\file.txt'
 date = open(path, 'r')
 line = date.read()
 date.close()
