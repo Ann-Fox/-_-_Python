@@ -8,9 +8,19 @@
 a = int(input("Введите первое число: "))
 b = int(input("Введите второе число: "))
 
-if a==b**2:
+
+# if a==b**2:
+#   print(f"{a}, {b} -> yes")
+# elif b==pow(a, 2):   # elif b == a*a
+#     print(f"{a}, {b} -> yes")
+# else:
+#   print(f"{a}, {b} -> no")
+
+# логические операторы
+if (a==b**2) or (b == a*a):
   print(f"{a}, {b} -> yes")
-elif b==pow(a, 2):
-    print(f"{a}, {b} -> yes")
 else:
-  print(f"{a}, {b} -> no")
+   print(f"{a}, {b} -> no") 
+
+# тернарный оператор
+print('yes' if ((a == b*b) or (b == a*a)) else 'no')
