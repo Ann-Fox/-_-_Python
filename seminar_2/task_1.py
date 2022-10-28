@@ -2,16 +2,22 @@
 #  Пример: Для N = 5: 1, -3, 9, -27, 81
 
 
+def func(x):
+    a = 1
+    for i in range(x):
+        print(a, end=" ")
+        a *= -3
 
-#Вариант 1
-Number_N = int(input("Введите число: "))
+func(5)
 
-for i in range (0, Number_N):
+# Вариант 1
+# Number_N = int(input("Введите число: "))
+
+# for i in range (0, Number_N):
 # print
 
 
-
-#Вариант 2
+# Вариант 2
 # Number = int(input('Введите число N: '))
 
 # result = []

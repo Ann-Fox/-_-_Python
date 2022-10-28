@@ -7,11 +7,15 @@
 # 5: 16, 
 # 6: 19}
 
-Number_N = int(input("Введите число: "))
-print(f"Number_N = {Number_N}: ", end = " ")
 
-for i in range(1, Number_N+1):
-  print(f"{i}:{3*i+1}", end = " ")
+
+
+
+# Number_N = int(input("Введите число: "))
+# print(f"Number_N = {Number_N}: ", end = " ")
+
+# for i in range(1, Number_N+1):
+#   print(f"{i}:{3*i+1}", end = " ")
 
 
 # Number = int(input("Введите число N:"))
@@ -32,10 +36,10 @@ for i in range(1, Number_N+1):
 # print(", ".join(list))
 
 
-Number = int(input('введите чимло N: '))
+# Number = int(input('введите чимло N: '))
 
-result = {}
-for key in range(1, Number+1):
-  result[key] = key*3+1
+# result = {}
+# for key in range(1, Number+1):
+#   result[key] = key*3+1
 
-print(result)
+# print(result)
